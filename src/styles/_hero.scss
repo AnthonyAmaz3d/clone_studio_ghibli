@@ -1,0 +1,53 @@
+.hero {
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-image: url('../images/hero/capa_hero.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+    text-align: center;
+
+    button {
+        margin-top: 1.5vw;
+        margin-bottom: 8px;
+    }
+
+    &__content {
+        max-width: 640px;
+
+        &__branding {
+            max-width: 400px;
+            margin: 0 auto 38px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .title--small {
+            margin-bottom: 64px;
+        }
+
+        p {
+            margin-bottom: 28px;
+
+            &:last-child {
+                margin-top: 60px;
+            }
+        }
+
+        &__options {
+            display: flex;
+            justify-content: space-between;
+
+            &__option {
+                width: calc(50% - 12px);
+
+                img {
+                    max-height: 90px;
+                    height: 100%;
+                    width: 100px;    
+                }
+            }
+        }
+    }
+}
