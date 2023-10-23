@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
+
     <section class="hero">
         <div class="hero__content">
             <div class="hero__content__branding">
@@ -39,5 +40,40 @@
             </p>
         </div>
     </section>
+
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="favoritos" class="shows__tabs__button shows__tabs__button--is-active">Favoritos</button>
+            <button data-tab-button="mais_populares" class="shows__tabs__button">Mais populares</button>
+            <button data-tab-button="premiados" class="shows__tabs__button">Premiados</button>
+        </nav>
+        <ul data-tab-id="favoritos" class="shows__list shows__list--is-active">
+            <li class="shows__list__item"><img src="./dist/images/filmes/favoritos/favorito1.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/favoritos/favorito2.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/favoritos/favorito3.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/favoritos/favorito4.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/favoritos/favorito5.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/favoritos/favorito6.webp" alt=""></li>
+        </ul>
+        <ul data-tab-id="mais_populares" class="shows__list">
+            <li class="shows__list__item"><img src="./dist/images/filmes/mais_populares/mais_popular1.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/mais_populares/mais_popular2.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/mais_populares/mais_popular3.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/mais_populares/mais_popular4.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/mais_populares/mais_popular5.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/mais_populares/mais_popular6.webp" alt=""></li>
+        </ul>
+        <ul data-tab-id="premiados" class="shows__list">
+            <li class="shows__list__item"><img src="./dist/images/filmes/premiados/premiado1.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/premiados/premiado2.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/premiados/premiado3.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/premiados/premiado4.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/premiados/premiado5.webp" alt=""></li>
+            <li class="shows__list__item"><img src="./dist/images/filmes/premiados/premiado6.webp" alt=""></li>
+        </ul>
+    </section>
+
+    <script src="/dist/js/main.js"></script>
+
 </body>
 </html>
