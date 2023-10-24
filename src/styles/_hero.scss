@@ -6,6 +6,15 @@
     background-position-y: bottom;
     text-align: center;
 
+    @media (max-width: 768px) {
+        background-image: url(../images/hero/background_cel.jpg);
+        padding-top: calc(70vw);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -100px;
+        background-position-y: top;
+    }
+
     button {
         margin-top: 1.5vw;
         margin-bottom: 8px;

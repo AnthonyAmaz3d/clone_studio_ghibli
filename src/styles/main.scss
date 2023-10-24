@@ -89,6 +89,10 @@ body {
     cursor: pointer;
     margin-top: 20px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
+    &:hover {
+        background-color: lighten(variaveis.$corBackgroundBotaoPrimario, 3%);
+    }
 }
 
 .image-about-section {
@@ -96,6 +100,10 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
 
     img {
         width: 100%;
@@ -107,7 +115,11 @@ body {
         padding: 0 2vw;
 
         h2 {
-            margin-bottom: 24px
+            margin-bottom: 24px;
+
+            @media (max-width: 768px) {
+                margin-top: 24px;
+            }
         }
     }
 
@@ -118,6 +130,10 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
 
     img {
         max-width: 100%;
@@ -130,7 +146,11 @@ body {
         padding: 0 2vw;
 
         h2 {
-            margin-bottom: 24px
+            margin-bottom: 24px;
+
+            @media (max-width: 768px) {
+                margin-top: 24px;
+            }
         }
     }
 }
