@@ -1,0 +1,38 @@
+.available-devices {
+    padding: 5.6vw;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    &__list {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(4, 1fr);
+        
+        &__item{
+            text-align: center;
+            box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+            border-radius: 3em;
+
+            h4 {
+                margin-top: 20px;
+                margin-bottom: 24px;
+            }
+            
+            li {
+                list-style: none;
+
+                &:last-child{
+                    margin-bottom: 24px;
+                }
+            }
+
+            img {
+                max-width: 100%;
+                width: 180px;
+            }
+        }
+    }
+}
